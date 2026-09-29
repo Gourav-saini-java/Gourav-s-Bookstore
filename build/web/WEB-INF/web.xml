@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!-- Save Login -->
+    <servlet>
+        <servlet-name>savelogin</servlet-name>
+        <jsp-file>/savelogin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>savelogin</servlet-name>
+        <url-pattern>/savelogin</url-pattern>
+    </servlet-mapping>
+
+    <!-- Login History -->
+    <servlet>
+        <servlet-name>loginHistory</servlet-name>
+        <jsp-file>/loginHistory.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginHistory</servlet-name>
+        <url-pattern>/loginHistory</url-pattern>
+    </servlet-mapping>
+
+    <!-- Manage Books -->
+    <servlet>
+        <servlet-name>manageBooks</servlet-name>
+        <jsp-file>/manageBooks.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>manageBooks</servlet-name>
+        <url-pattern>/manageBooks</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Form Login -->
+    <servlet>
+        <servlet-name>updateformlog</servlet-name>
+        <jsp-file>/updateformlog.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateformlog</servlet-name>
+        <url-pattern>/updateformlog</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Login-->
+    <servlet>
+        <servlet-name>updatelog</servlet-name>
+        <jsp-file>/updatelog.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatelog</servlet-name>
+        <url-pattern>/updatelog</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Form Registration -->
+    <servlet>
+        <servlet-name>updateformreg</servlet-name>
+        <jsp-file>/updateformreg.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateformreg</servlet-name>
+        <url-pattern>/updateformreg</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Registration-->
+    <servlet>
+        <servlet-name>updatereg</servlet-name>
+        <jsp-file>/updatereg.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatereg</servlet-name>
+        <url-pattern>/updatereg</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Form Order -->
+    <servlet>
+        <servlet-name>updateformorder</servlet-name>
+        <jsp-file>/updateformorder.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateformorder</servlet-name>
+        <url-pattern>/updateformorder</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Order -->
+    <servlet>
+        <servlet-name>updateorder</servlet-name>
+        <jsp-file>/updateorder.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateorder</servlet-name>
+        <url-pattern>/updateorder</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Form Order -->
+    <servlet>
+        <servlet-name>updateformbook</servlet-name>
+        <jsp-file>/updateformbook.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateformbook</servlet-name>
+        <url-pattern>/updateformbook</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Order -->
+    <servlet>
+        <servlet-name>updatebook</servlet-name>
+        <jsp-file>/updatebook.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatebook</servlet-name>
+        <url-pattern>/updatebook</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Login -->
+    <servlet>
+        <servlet-name>deletelog</servlet-name>
+        <jsp-file>/deletelog.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletelog</servlet-name>
+        <url-pattern>/deletelog</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Registration -->
+    <servlet>
+        <servlet-name>deletereg</servlet-name>
+        <jsp-file>/deletereg.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletereg</servlet-name>
+        <url-pattern>/deletereg</url-pattern>
+    </servlet-mapping>
+
+    <!-- Delete Order -->
+    <servlet>
+        <servlet-name>deleteorder</servlet-name>
+        <jsp-file>/deleteorder.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteorder</servlet-name>
+        <url-pattern>/deleteorder</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Order -->
+    <servlet>
+        <servlet-name>deletebook</servlet-name>
+        <jsp-file>/deletebook.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletebook</servlet-name>
+        <url-pattern>/deletebook</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Save Registration -->
+    <servlet>
+        <servlet-name>saveregistration</servlet-name>
+        <jsp-file>/saveregistration.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saveregistration</servlet-name>
+        <url-pattern>/saveregistration</url-pattern>
+    </servlet-mapping>
+
+    <!-- Save Book -->
+    <servlet>
+        <servlet-name>savebook</servlet-name>
+        <jsp-file>/savebook.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>savebook</servlet-name>
+        <url-pattern>/savebook</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Upload Book -->
+    <servlet>
+        <servlet-name>uploadBook</servlet-name>
+        <jsp-file>/uploadBook.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadBook</servlet-name>
+        <url-pattern>/uploadBook</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Purchase History -->
+    <servlet>
+        <servlet-name>orderHistory</servlet-name>
+        <jsp-file>/orderHistory.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>orderHistory</servlet-name>
+        <url-pattern>/orderHistory</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Sales Report -->
+    <servlet>
+        <servlet-name>salesReport</servlet-name>
+        <jsp-file>/salesReport.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>salesReport</servlet-name>
+        <url-pattern>/salesReport</url-pattern>
+    </servlet-mapping>
+
+    <!-- All Users -->
+    <servlet>
+        <servlet-name>allUsers</servlet-name>
+        <jsp-file>/allUsers.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allUsers</servlet-name>
+        <url-pattern>/allUsers</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Session -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!-- Welcome -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
